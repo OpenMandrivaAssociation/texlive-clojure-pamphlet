@@ -1,6 +1,6 @@
 Name:		texlive-clojure-pamphlet
 Version:	60981
-Release:	1
+Release:	2
 Summary:	A simple literate programming tool based on clojure's pamphlet system
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/clojure-pamphlet
