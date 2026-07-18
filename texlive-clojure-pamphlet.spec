@@ -1,5 +1,6 @@
 %global tl_name clojure-pamphlet
 %global tl_revision 79618
+%global tl_bin_links pamphletangler:%{_texmfdistdir}/scripts/clojure-pamphlet/pamphletangler
 
 Name:		texlive-%{tl_name}
 Epoch:		1
@@ -16,6 +17,8 @@ BuildArch:	noarch
 BuildSystem:	texlive
 Requires:	texlive(clojure-pamphlet.bin)
 Provides:	texlive(%{tl_name}) = %{tl_revision}
+Provides:	texlive(%{tl_name}.bin) = %{tl_revision}
+Provides:	texlive-%{tl_name}.bin = %{EVRD}
 
 %description
 The Clojure pamphlet system is a system based on the Clojure literate
